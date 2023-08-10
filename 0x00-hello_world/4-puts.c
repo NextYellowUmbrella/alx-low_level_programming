@@ -1,9 +1,15 @@
 #include <stdio.h>
 
-/* This is the main function. It prints a message.*/
+/**
+ * main - Entry point
+ *
+ * Description: A C program that prints using puts funtion
+ *
+ * Return: Always 0 (Success)
+*/
+
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
-/* @return 0 indicating successful execution.*/ 
 return (0);
 }

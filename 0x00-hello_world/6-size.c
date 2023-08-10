@@ -1,6 +1,12 @@
 #include <stdio.h>
 
-/*Tells you the size of data types */
+/**
+ * main - Entry point
+ *
+ * Description: prints all data types of current machine
+ *
+ * Return: Always 0 (Success)
+*/
 int main(void)
 {
 printf("Size of a char: %lu byte(s)\n", sizeof(char));
