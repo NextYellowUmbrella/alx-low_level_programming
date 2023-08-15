@@ -8,7 +8,8 @@
  * Return: Always 0 (Success)
 */
 
-viod print_alphabet(void)
+void print_alphabet(void)
+	
 {
 	int n = 97;
 
