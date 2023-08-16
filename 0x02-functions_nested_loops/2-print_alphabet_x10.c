@@ -19,9 +19,9 @@ void print_alphabet_x10(void)
 		ch++;
 		if (ch == 123)
 		{
+			_putchar('\n');
 			count++;
 			ch = 97;
 		}
 	}
-	_putchar('\n');
 }
