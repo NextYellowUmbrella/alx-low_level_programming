@@ -5,7 +5,7 @@
  *
  * Description: computes the sum of all
  *
- * Returns: Always 0 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
