@@ -1,11 +1,8 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Description: print the alphabet ten times
- *
- * Return: Always 0 (Success)
+ * Description: print the alphabet ten times using the putchar function
+ *		from a-z
 */
 
 void print_alphabet_x10(void)
