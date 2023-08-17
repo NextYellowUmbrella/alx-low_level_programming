@@ -2,11 +2,6 @@
 
 /**
  *  main - causes an infinite loop
- *
- * Description - Hello
- *
- * @\\o/\n\": hello
- *
  * Return: 0
 */
 
