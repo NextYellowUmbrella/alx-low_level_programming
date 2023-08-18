@@ -1,5 +1,5 @@
 #include "main.h"
-#include <std.io>
+#include <stdio.h>
 
 /**
  * main - print numbers 1 - 100

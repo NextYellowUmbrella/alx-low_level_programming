@@ -1,4 +1,4 @@
-#include "10-print_triangle.c"
+#include "main.h"
 
 /**
  * print_triangle - prints a triangle
@@ -9,7 +9,7 @@
 */
 
 void print_triangle(int size)
-
+{
 	int hght, base;
 
 	if (size <= 0)
