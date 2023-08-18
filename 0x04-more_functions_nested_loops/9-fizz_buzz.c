@@ -24,7 +24,10 @@ int main(void)
 		else
 			printf("%d", num);
 
-		printf(" ");
+		if (num != 100)
+			printf(" ");
+		else
+			printf("\n");
 	}
 
 	return (0);
