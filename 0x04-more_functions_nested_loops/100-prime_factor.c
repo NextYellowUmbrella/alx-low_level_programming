@@ -37,7 +37,7 @@ void largest_prime_factor(long int num)
 	while (num % 2 == 0)
 		num = num / 2;
 
-	for (prime = 3; prime <= sqrt(num); prime += 2)
+	for (prime = 3; prime <= _sqrt(num); prime += 2)
 	{
 		while (num % prime == 0)
 		{
