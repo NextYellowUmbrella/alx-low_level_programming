@@ -8,7 +8,7 @@
  * Return: Always 0
 */
 
-void print _square(int size)
+void print_square(int size)
 {
 	for (row = 1; row <= size; row++)
 	{
