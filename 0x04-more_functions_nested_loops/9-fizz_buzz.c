@@ -1,31 +1,26 @@
-#include "main.h"
 #include <stdio.h>
 
-/**
- * main - print numbers 1 - 100
- *
- * Returns: Always 0
-*/
-
-int main(void)
+int main()
 {
-	int num;
-	for (num = 1; num <= 100; num++)
-	{
-		if (num % 3 == 0 && !(num % 5 == 0))
-			printf("Fizz");
-		else if (num % 5 == 0 && !(num % 3 == 0))
-			printf("Buzz");
-		else if (num % 3 == 0 && num % 5 == 0)
-			printf("FizzBuzz");
-		else
-			printf("%d", num);
+    for (int i = 1; i < 101; i++)
+    {
+        if (i % 3 == 0 && i % 5 == 0)
+        {
+            printf("FizzBuzz ");
+        }
+        else if (i % 5 == 0)
+        {
+            printf("Buzz ");
+        }
+        else if (i % 3 == 0)
+        {
 
-		if (num != 100)
-			printf(" ");
-		else
-			printf("\n");
-	}
+            printf("Fizz ");
+        }
 
-	return (0);
+        else
+        {
+            printf("%d ", i);
+        }
+    }
 }
