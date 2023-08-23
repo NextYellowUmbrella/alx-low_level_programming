@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * *_strcat - appends
+ * *_strncat - appends
  *
  * @dest: first string
  * @src: second string
+ * @n: number of letters from src
  *
  * Return: nothing
 */
