@@ -8,7 +8,7 @@
  * Return: nothing
 */
 
-char *leet(char *)
+char *leet(char *c)
 {
 	char *cp = c;
 	char key[] = {'A', 'E', 'O', 'T', 'L'};
