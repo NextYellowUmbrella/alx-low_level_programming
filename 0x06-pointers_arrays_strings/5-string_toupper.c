@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *string_topper - appends
+ * *string_toupper - appends
  *
  * @str: first string
  *
