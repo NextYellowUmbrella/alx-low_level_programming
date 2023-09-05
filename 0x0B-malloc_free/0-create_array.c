@@ -9,19 +9,20 @@
 
 char *create_array(unsigned int size, char c)
 {
-	char hello[size];
-	char *p = hello;
+	char poi[size];
+	char *p = poi;
+	int i;
 
 	if (size > 0)
 	{
 		for (i = 0; i < size; i++)
 		{
-			hello[i] = c;
+			poi[i] = c;
 		}
 	}
 	else
 	{
-		return (null);
+		return (NULL);
 	}
-	return (*p);
+	return (p);
 }
