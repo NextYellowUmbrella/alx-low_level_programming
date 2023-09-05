@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * *create_array - make an array with "size" size and set the char to "c"
@@ -11,14 +12,14 @@
 char *create_array(unsigned int size, char c)
 {
 	char *str;
-	str = malloc(sizeof(char) * 3);
+	str = malloc(sizeof(char) * size);
 	unsigned int i;
 
 	if (size > 0)
 	{
 		for (i = 0; i < size; i++)
 		{
-			poi[i] = c;
+			str[i] = c;
 		}
 	}
 	else
