@@ -2,7 +2,7 @@
 
 /**
  * print_listint - prints
- * @h: pointer 
+ * @h: pointer
  *
  * Return: size of list
  */
